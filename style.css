@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, nav, #featured-property, #details {
+  text-align: center;
+}
+
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgb(212, 208, 208);
+}
+
+figcaption{
+  font-size: .85em;
+}
+
+#featured-property p{
+  width: 800px;
+  margin:20px auto;
+}
+
+/* Make each div inside #details section horizontal */
+#details div{
+  float: left;
+  background: red;
+  width: 25%;
+}
+
+
+
+
